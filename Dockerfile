@@ -3,7 +3,7 @@ FROM 2chat/ubuntu:xenial
 ENV DEBIAN_FRONTEND noninteractive
 ENV PATH $PATH:/usr/local/nginx/sbin
 
-ENV NGINX_VERSION 1.13.3
+ENV NGINX_VERSION 1.19.0
 ENV NGINX_TS_VERSION 0.1.1
 
 EXPOSE 8080
